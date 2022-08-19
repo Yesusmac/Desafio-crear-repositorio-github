@@ -1,6 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* header */
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+}
+
+ul {
+    list-style: none;
+}
+
+header .navBar {
+    background-color: rgba(74, 116, 190, 0.729);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 150px
+}
+
+header .navBar .listPrin {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .navBar .listPrin .itemList a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+header .navBar .listPrin .itemList a:hover {
+    color: white;
+}
+
+img {
+    max-width: 200px;
+    max-height: 100px;
+   }
