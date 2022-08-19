@@ -53,6 +53,8 @@ img {
 
 h1 {
     font-family: sans-serif;
+    color: aliceblue;
+    text-decoration: underline;
 }
 
 .parrafoCorto {
