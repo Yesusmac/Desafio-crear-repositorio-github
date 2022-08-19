@@ -55,9 +55,69 @@ h1 {
     font-family: sans-serif;
     color: aliceblue;
     text-decoration: underline;
+    animation-name: titulo;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 15s;
 }
 
+/* footer */
 .parrafoCorto {
     width: 150px;
     color: white;
+}
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(235, 17, 17, 0.855)
+}
+
+.mediosDePago {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mediosDeEnvios{
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@keyframes titulo{
+    0%{
+        color: white;
+        font-size: 25px;
+    }
+    25%{
+        color: aqua;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    50%{
+        color: brown;
+        text-decoration: underline;
+    }
+    75%{
+        color:rgb(255, 127, 127);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    100%{
+        color:yellow;
+        font-size: 15px;
+    }
+
 }
